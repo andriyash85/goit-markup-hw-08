@@ -38,18 +38,39 @@ address {
 .container__header {
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    justify-content: space-between;
+  }
 }
 
 .menu {
   display: flex;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 .menu__item {
   margin-right: 50px;
 }
 
 .contacts {
-  display: flex;
-  margin-left: auto;
+  // display: flex;
+  // margin-left: auto;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: auto;
+    // margin-right: auto;
+  }
 }
 .contacts__item:not(:last-child) {
   margin-right: 50px;
