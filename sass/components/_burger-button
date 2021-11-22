@@ -1,0 +1,17 @@
+.burger-btn {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  line-height: 0;
+
+  border: none;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.burger-icon-icon {
+  width: 40px;
+  height: 40px;
+}
