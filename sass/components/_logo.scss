@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  margin-right: 94px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+.logo__dark {
+  color: var(--first-text-color);
+}
+.logo__light {
+  color: var(--third-text-color);
+}
