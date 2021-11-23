@@ -4,6 +4,7 @@ header {
   border-bottom: 1px solid #ececec;
   display: flex;
 }
+
 address {
   margin-top: 20px;
   font-style: normal;
@@ -56,9 +57,6 @@ address {
 }
 
 .contacts {
-  // display: flex;
-  // margin-left: auto;
-
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -69,7 +67,6 @@ address {
   @media screen and (min-width: 1200px) {
     display: flex;
     margin-left: auto;
-    // margin-right: auto;
   }
 }
 .contacts__item:not(:last-child) {
