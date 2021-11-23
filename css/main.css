@@ -1074,6 +1074,17 @@ address {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .advantages__logo {
   height: 120px;
   background-color: #f5f4fa;
@@ -1113,12 +1124,19 @@ address {
   color: var(--second-text-color);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .advantages__item {
     width: 354px;
     margin: 15px;
     -ms-flex-preferred-size: calc((100% / 2) -60px);
         flex-basis: calc((100% / 2) -60px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages__item {
+    width: 270px;
+    margin-right: 30px;
   }
 }
 
