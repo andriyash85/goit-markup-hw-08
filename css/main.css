@@ -1478,6 +1478,9 @@ address {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -1512,18 +1515,24 @@ address {
 
 .footer__left {
   margin-right: 70px;
+  margin-bottom: 60px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   .footer__left {
-    margin-bottom: 60px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .footer__left {
     padding-left: 60px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .footer__left {
-    margin-bottom: 60px;
+    padding-left: 0px;
   }
 }
 
