@@ -1,3 +1,9 @@
+.about-section {
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
 .about {
   display: flex;
 }
