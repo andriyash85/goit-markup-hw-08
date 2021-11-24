@@ -37,9 +37,6 @@
   align-items: baseline;
 
   @media screen and (max-width: 767px) {
-    // flex-direction: column;
-    // text-align: center;
-    // justify-content: space-around;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
@@ -57,11 +54,13 @@
 }
 .footer__left {
   // flex-grow: 1;
+  // text-align: center;
   margin-right: 70px;
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-right: 70px;
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
+    // margin-right: 70px;
     margin-bottom: 60px;
-    width: 231px;
+    padding-left: 60px;
+    // width: 231px;
   }
   @media screen and (min-width: 1200px) {
     margin-bottom: 60px;
@@ -69,9 +68,9 @@
 }
 .footer__right {
   text-align: center;
+  margin-bottom: 60px;
 
   @media screen and (min-width: 1200px) {
-    margin-bottom: 60px;
     margin-right: 93px;
   }
 }

@@ -1514,12 +1514,10 @@ address {
   margin-right: 70px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .footer__left {
-    margin-right: 70px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    width: 231px;
+    margin-bottom: 60px;
+    padding-left: 60px;
   }
 }
 
@@ -1531,12 +1529,12 @@ address {
 
 .footer__right {
   text-align: center;
-  margin-right: 93px;
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
   .footer__right {
-    margin-bottom: 60px;
+    margin-right: 93px;
   }
 }
 
