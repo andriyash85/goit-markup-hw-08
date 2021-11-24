@@ -60,7 +60,7 @@
   margin-right: 70px;
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-right: 70px;
-    justify-content: space-around;
+    margin-bottom: 60px;
     width: 231px;
   }
   @media screen and (min-width: 1200px) {
@@ -69,9 +69,10 @@
 }
 .footer__right {
   text-align: center;
-  margin-right: 93px;
+
   @media screen and (min-width: 1200px) {
     margin-bottom: 60px;
+    margin-right: 93px;
   }
 }
 .footer-connection__title {
