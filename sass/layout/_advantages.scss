@@ -31,7 +31,7 @@
   color: var(--first-text-color);
   margin-bottom: 10px;
 
-  @media screen and (min-width: 480px) and (max-width: 1200px) {
+  @media screen and (max-width: 768px) {
     text-align: center;
   }
 }

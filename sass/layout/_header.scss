@@ -52,7 +52,7 @@ address {
     display: none;
   }
 }
-.menu__item {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -63,6 +63,7 @@ address {
 
   @media screen and (max-width: 1200px) {
     flex-direction: column;
+    margin-left: 50px;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -70,7 +71,11 @@ address {
   }
 }
 .contacts__item:not(:last-child) {
-  margin-right: 50px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+  }
 }
 
 .contacts__icon {
