@@ -6,6 +6,9 @@
     align-items: center;
     margin-right: 0px;
   }
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 .footer-form__section {
   flex-direction: column;
