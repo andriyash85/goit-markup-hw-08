@@ -1281,10 +1281,6 @@ address {
   }
 }
 
-.advantages__item:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 @media screen and (max-width: 1200px) {
   .about-section {
     display: none;
