@@ -86,7 +86,7 @@
   max-width: 696px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
 }
 
 .solutions__slogan {
@@ -99,19 +99,15 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-text-color);
-  margin-bottom: 30px;
-  @media screen and (max-width: 1200px) {
-    width: 360px;
+  // margin-bottom: 30px;
 
+  @media screen and (max-width: 1199px) {
+    max-width: 360px;
     line-height: 1.62;
     font-size: 26px;
+    margin-bottom: 30px;
   }
-
-  @media screen and (min-width: 480px), (min-width: 768px) {
-    .solutions__slogan {
-      width: 360px;
-      line-height: 1.62;
-      font-size: 26px;
-    }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
   }
 }
