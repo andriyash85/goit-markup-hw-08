@@ -7,6 +7,10 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
+  @media screen and (max-width: 1200px) {
+    margin-right: 88px;
+    font-size: 24px;
+  }
 }
 .logo__dark {
   color: var(--first-text-color);

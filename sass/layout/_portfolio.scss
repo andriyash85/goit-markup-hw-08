@@ -36,8 +36,13 @@
 }
 .filtr__item:not(:last-child) {
   margin-right: 8px;
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 15px;
+  }
+}
+.filtr__item:nth-child(4) {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 0px;
   }
 }
 

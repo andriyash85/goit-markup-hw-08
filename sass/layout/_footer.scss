@@ -28,7 +28,7 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-contacts__item {
+.footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
